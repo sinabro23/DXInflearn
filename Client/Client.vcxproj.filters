@@ -9,18 +9,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Game">
-      <UniqueIdentifier>{21a23809-9fd5-4c2c-939e-de5f2886c2c0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\Utils">
-      <UniqueIdentifier>{2ba4244e-4180-4f39-80d8-d4d9db9941cc}</UniqueIdentifier>
+      <UniqueIdentifier>{675dc99b-aea9-4b90-9b6d-785e974ad0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Game">
+      <UniqueIdentifier>{307155c3-a545-44c4-9312-fc8f21c2a117}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
+    <ClInclude Include="Client.h">
       <Filter>소스 파일\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="pch.h">
+    <ClInclude Include="framework.h">
       <Filter>소스 파일\Utils</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
@@ -29,23 +29,15 @@
     <ClInclude Include="targetver.h">
       <Filter>소스 파일\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="Client.h">
+    <ClInclude Include="pch.h">
       <Filter>소스 파일\Utils</Filter>
     </ClInclude>
     <ClInclude Include="Game.h">
       <Filter>소스 파일\Game</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Client.cpp">
+    <ClInclude Include="Timer.h">
       <Filter>소스 파일\Utils</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>소스 파일\Utils</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
-      <Filter>소스 파일\Game</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Client.rc">
@@ -59,5 +51,19 @@
     <Image Include="Client.ico">
       <Filter>리소스 파일</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>소스 파일\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\Utils</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
